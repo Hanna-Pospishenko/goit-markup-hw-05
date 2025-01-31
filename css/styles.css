@@ -787,8 +787,10 @@ button:focus {
 
 .modal-checkbox {
     margin-bottom: 24px;
-}
 
+    display: flex;
+    align-items: center;
+}
 
 
 .input-checkbox:checked+label>span {
@@ -802,7 +804,10 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    ;
+
+    display: flex;
+    align-items: center;
+    font-weight: 400;
 }
 
 .privacy-text-checkbox {
@@ -911,4 +916,11 @@ button:focus {
 
 .subscribe-btn-icon {
     margin-left: 16px;
+}
+
+
+input[type="checkbox"]:checked+.modal-label .privacy-text-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
