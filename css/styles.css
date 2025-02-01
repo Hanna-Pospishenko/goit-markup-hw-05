@@ -704,12 +704,7 @@ button:focus {
 
 .modal-label {
     margin-bottom: 4px;
-    color: #8E8F99;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    font-size: 12px;
-    display: block;
+
 }
 
 .modal-input-icon {
@@ -728,19 +723,6 @@ button:focus {
 
 .input-wrap {
     position: relative;
-    display: flex;
-    align-items: center;
-    width: 360px;
-    height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    padding-left: 40px;
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    width: 100%;
-
-
 }
 
 .input-wrap:focus-within {
