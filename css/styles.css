@@ -667,7 +667,6 @@ button:focus {
     text-align: center;
     color: #2e2f42;
     margin-bottom: 16px;
-    margin-top: 24px;
 }
 
 .modal-form {
@@ -853,7 +852,7 @@ button:focus {
 }
 
 .subscribe-container {
-    margin-left: 90px;
+    margin-left: auto;
 }
 
 .subscribe-input {
